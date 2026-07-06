@@ -21,9 +21,40 @@ GEM, Advantage+ Sales, EU LPA/DMA).
 5. **Eigen baseline of geen baseline.** Sinds EU LPA (jan 2026) zijn oude
    benchmarks onbruikbaar; je eigen data is de lat.
 
+## Begin hier: de orchestrator
+
+`meta-ads-orchestrator` is de ingang van de set. Je hoeft niet te weten
+welke van de zes specialist-skills wat doet: de orchestrator onboardt
+een nieuwe klant (intake, onderzoek, config), bewaakt de poorten en
+routeert daarna elke vraag naar de juiste skill in de vaste volgorde.
+
+**Quick-start voor een nieuwe klant:**
+
+1. Installeer de skills (zie Installatie hieronder)
+2. Open Claude Code in de werkmap van de klant en zeg:
+   **"onboard een nieuwe klant"**
+3. De orchestrator loopt dan het hele spoor af:
+   - intake (INTAKE.md, 32 vragen, stapsgewijs; inclusief hulp bij het
+     berekenen van COGS, marges en de margin-floor)
+   - onboarding-onderzoek: website-scan (positioning, painpoints, offer,
+     claim-check op de bestaande site-copy) plus VOC-research via de
+     4-bronnen-scan, uitmondend in persona-briefs en angle-kandidaten
+   - config: een eigen `BRAND-CONFIG.md` en `ADS-STATUS.md` per klant,
+     gegenereerd uit de templates
+   - daarna het launch-spoor: kickoff → offer → creatives → preflight →
+     launch → weekly review
+4. Losse vragen daarna ("mag dit live", "moet ik schalen") mag je gewoon
+   stellen; de orchestrator stuurt ze naar de juiste specialist
+
+Het volledige stappenplan met deliverables en poorten per stap staat in
+`skills/meta-ads-orchestrator/references/onboarding-draaiboek.md`.
+
 ## De skills en hoe ze samenwerken
 
 ```
+meta-ads-orchestrator  ←  begin hier: intake → onderzoek →
+        │                  config → routing
+        ▼
 campagne-kickoff (10 vragen + budget-tiers)
         │
         ▼
@@ -46,6 +77,7 @@ ad-creative ──── offer-architect
 
 | Skill | Job | Belangrijkste references |
 |---|---|---|
+| `meta-ads-orchestrator` | startpunt: klant-onboarding (intake, onderzoek, config), poorten bewaken, routing tussen de skills | `onboarding-draaiboek.md` (14 stappen van eerste gesprek tot weekly ritme, met deliverables en rode vlaggen) |
 | `meta-media-buyer` | structuur, budget, schalen, kickoff-vragen, budget-tier ladder (tier 0-4) | `campagne-kickoff.md` (tien vragen, tier-playbook met graduatie/kill-regels, creative-volume-formule), `bron-structuur-consensus-2026.md`, `bron-levi-steede-2026.md` |
 | `ad-creative` | personas, angles, scripts, hooks, statics, productie-pipeline | `persona-playbook.md` (brief-format + naamgevings-conventie), `angle-research.md` (4-bronnen-scan), `angle-bank.md` (voorbeeld-casus), `script-bouwregels.md` |
 | `offer-architect` | offers, bundels, garanties, eerlijke schaarste, EU Omnibus | `bron-weische-offers-2024.md` |
@@ -61,9 +93,11 @@ ad-creative ──── offer-architect
    dit is het werkgeheugen van je ads-operatie. Open je een nieuwe
    terminal, dan leest `meta-ads-review` dit eerst en weet Claude direct
    waar je staat (actieve campagnes, lopende tests, volgende acties).
-4. Vul de config via de vragenlijst in `INTAKE.md`. Doe dit VOORDAT je
-   iets anders doet: de skills weigeren terecht te adviseren zonder
-   ingevulde marge-cijfers.
+4. Vul de config via de vragenlijst in `INTAKE.md`. Makkelijkste route:
+   zeg "onboard een nieuwe klant" en de orchestrator loopt intake,
+   onderzoek en config stapsgewijs met je door. Doe dit VOORDAT je iets
+   anders doet: de skills weigeren terecht te adviseren zonder ingevulde
+   marge-cijfers.
 5. Optioneel: koppel een Meta Ads MCP-server voor `meta-ads-review`
    (de skill werkt ook zonder, via CSV-exports).
 
@@ -74,7 +108,9 @@ een publieke repo.
 ## Voor agencies
 
 Deze set werkt voor één merk, maar ook als gestandaardiseerde
-agency-werkwijze over meerdere klanten:
+agency-werkwijze over meerdere klanten. De orchestrator dwingt deze
+werkwijze af (intake → onderzoek → config per klant); de regels
+hieronder zijn de standaard die daarbij hoort:
 
 1. **Eén config-paar per klant.** Elke klant krijgt een eigen
    `BRAND-CONFIG.md` (merkwaarheid, unit economics, verboden claims) en
