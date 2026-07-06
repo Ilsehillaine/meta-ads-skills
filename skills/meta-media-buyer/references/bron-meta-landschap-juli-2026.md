@@ -1,4 +1,4 @@
-# Meta Ads — stand van zaken juli 2026
+# Meta Ads: stand van zaken juli 2026
 
 **Bron:** eigen webresearch, uitgevoerd juli 2026 (2026-07-05). Doel: valideren welke adviezen uit 2024/2025 expert-video's nog kloppen. Per claim: bron + datum + betrouwbaarheidsoordeel.
 
@@ -50,11 +50,11 @@ Betrouwbaarheidslegenda:
 4. **Format-mix i.p.v. één winnend format.** Statics maken comeback in veel accounts; carrousels sterk voor fashion (meerdere productviews); video blijft dominant bij top-campagnes. Alle exacte percentages hieronder zijn vendor-cijfers zonder methodologie.
 
 ### Vendor-cijfers (richting oké, exacte waarde wantrouwen)
-- **[DUBIEUS/VENDOR]** "Top-adverteerders draaien ~395 live ads vs 296 bij de onderste derde" ([adgpt.com](https://adgpt.com/blog/ecommerce-ads-dtc-brands-beat-creative-fatigue), 2026) — bron van dataset onduidelijk.
+- **[DUBIEUS/VENDOR]** "Top-adverteerders draaien ~395 live ads vs 296 bij de onderste derde" ([adgpt.com](https://adgpt.com/blog/ecommerce-ads-dtc-brands-beat-creative-fatigue), 2026), bron van dataset onduidelijk.
 - **[VENDOR]** Brands >$5k/mnd spend: 5-15 nieuwe creatives per week tegen fatigue.
 - **[VENDOR]** AI-creative presteert beter dan human creative onder ~$100 AOV, slechter erboven (één bron, niet gerepliceerd).
 - **[VENDOR]** Carrousels 30-50% lagere cost per conversion dan single image ([dataslayer](https://www.dataslayer.ai/blog/meta-ad-formats-in-2025-guide)); video's 78% van top-performing ecommerce ads; fatigue-signalen: CTR -20% WoW, stijgende CPM zonder concurrentiestijging, frequency >3.0 op koud.
-- **[VENDOR]** Voor fashion specifiek: lifestyle-beeld boven packshots, UGC-zwaar (genoemde mix: 40% UGC / 30% statics / 20% video / 10% carrousel — indicatief, geen data).
+- **[VENDOR]** Voor fashion specifiek: lifestyle-beeld boven packshots, UGC-zwaar (genoemde mix: 40% UGC / 30% statics / 20% video / 10% carrousel, indicatief, geen data).
 
 ### Meta's eigen AI-creative richting
 - **[HARD]** Zuckerberg (juni 2025, o.a. [Yahoo Finance/WSJ-rapportage](https://finance.yahoo.com/news/meta-looking-fully-automate-ad-113056107.html), [eWeek](https://www.eweek.com/news/meta-ads-ai-automation/)): doel is **volledig geautomatiseerde ad-creatie tegen eind 2026**: productfoto + doel + budget uploaden, Meta genereert creative, targeting en allocatie. Per juli 2026 is dit nog visie/gedeeltelijk uitgerold, geen realiteit voor alle adverteerders.
@@ -84,7 +84,7 @@ Alle beschikbare cijfers zijn vendor-data zonder gepubliceerde methodologie. Geb
 | Fashion conversion rate | 0,90% | Lebesgue 2026 |
 | Fashion CAC | $28,08 | Lebesgue 2026 |
 | Fashion CPC | ~$0,45 (laagste van alle industrieën) | digitalapplied 2026 |
-| **Nederland** CPM | **$9,20 gem.** (range $7,50-11,00) | [AdAmigo, 2 jul 2026](https://www.adamigo.ai/blog/meta-ads-cpm-cpc-benchmarks-by-country-2026) — expliciet "projecties o.b.v. eind-2025 data" |
+| **Nederland** CPM | **$9,20 gem.** (range $7,50-11,00) | [AdAmigo, 2 jul 2026](https://www.adamigo.ai/blog/meta-ads-cpm-cpc-benchmarks-by-country-2026), expliciet "projecties o.b.v. eind-2025 data" |
 | Nederland CPC | $1,35 | idem |
 | Duitsland CPM / België CPM | $10,05 / $8,40 | idem |
 | Mediaan CVR alle industrieën | 1,57% | digitalapplied 2026 |
@@ -114,7 +114,7 @@ Kanttekeningen:
 - **Threads ads**: wereldwijd voor adverteerders sinds apr 2025; volledige uitrol naar alle users aangekondigd **21 jan 2026**, gestart 27 jan 2026; carrousel + Advantage+ catalog support ([TechCrunch 21 jan 2026](https://techcrunch.com/2026/01/21/threads-rolls-out-ads-to-all-users-worldwide/)).
 - **WhatsApp Status ads**: globale uitrol gestart jun 2025, **EU uitgezonderd tot minstens 2026** na interventie Ierse DPC/GDPR-zorgen ([heise](https://www.heise.de/en/news/Advertising-in-WhatsApp-not-before-2026-in-the-EU-10453818.html), [dig.watch](https://dig.watch/updates/whatsapp-ads-delayed-in-eu-until-2026)).
 
-### EU/DMA — de grootste verandering voor NL-adverteerders
+### EU/DMA: de grootste verandering voor NL-adverteerders
 - **Apr 2025**: Europese Commissie oordeelt pay-or-consent-model non-compliant onder DMA; **€200M boete** ([EC](https://digital-markets-act.ec.europa.eu/meta-commits-give-eu-users-choice-personalised-ads-under-dma-2025-12-08_en)).
 - **8 dec 2025**: Meta committeert zich aan derde keuze-optie.
 - **Jan 2026**: uitrol **"Less Personalized Ads" (LPA)** in de EU: users kiezen tussen (1) volledige personalisatie, (2) betaald ad-vrij abonnement, (3) LPA met aanzienlijk minder datadeling ([EC, 8 dec 2025](https://digital-markets-act.ec.europa.eu/meta-commits-give-eu-users-choice-personalised-ads-under-dma-2025-12-08_en); [emarketer](https://www.emarketer.com/content/meta-rewrites-its-eu-ad-model-regulators-tighten-screws)).

@@ -1,4 +1,4 @@
-# BRAND-CONFIG — [MERKNAAM] (PRIVÉ, nooit publiceren)
+# BRAND-CONFIG: [MERKNAAM] (PRIVÉ, nooit publiceren)
 
 Centrale merk- en cijferlaag voor alle ad-skills. Skills lezen dit bestand
 in Stap 1. Vul in via INTAKE.md. Houd het actueel: zet bij elke wijziging

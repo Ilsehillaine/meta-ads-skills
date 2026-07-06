@@ -55,11 +55,14 @@ bewuste, gelogde test.
 - [ ] Dagbudget conform je kickoff-tier (campagne-kickoff in
       meta-media-buyer); geen "aanbevolen" Meta-bedrag klakkeloos accepteren
 - [ ] Campaign spending limit: bewuste keuze (aan als vangnet bij tests)
-- [ ] **Existing customer budget cap op 0-5% voor cold campagnes.** Dit is
-      anno 2026 de manier om recente kopers uit te sluiten; de klassieke
+- [ ] **Existing customer budget cap bewust ingesteld.** Dit is anno 2026
+      de manier om kopers te beperken in cold campagnes; de klassieke
       exclusion-audience bestaat in de unified flow nauwelijks nog.
-      Let op (voor EU-adverteerders): post-LPA is de uitsluiting niet
-      waterdicht, accepteer restlekkage
+      Richtlijn: puur cold prospecting → cap laag (0-10%); klein account
+      zonder aparte retention-campagne → consensus 20-30% (de ASC doet
+      dan het beetje retargeting erbij; zie bron-structuur-consensus-2026
+      in meta-media-buyer). Let op (voor EU-adverteerders): post-LPA is
+      de uitsluiting niet waterdicht, accepteer restlekkage
 - [ ] A/B-test-toggle uit, tenzij er bewust een test loopt
 - [ ] Campagnenaam volgens conventie (angle erin)
 

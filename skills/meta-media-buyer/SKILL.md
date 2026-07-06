@@ -58,7 +58,9 @@ laatste poort voor launch is altijd de ad-preflight skill.
 
 ## Structuur (klein budget, 2026)
 
-- Eén Advantage+ Sales campagne (dat is nu de unified default flow), 1-2 ad sets.
+- Eén Advantage+ Sales campagne (dat is nu de unified default flow), één
+  ad set, 3-6 echt verschillende concept-creatives (consensus 2026, zie
+  `references/bron-structuur-consensus-2026.md`).
 - Consolideer: het account heeft ~50 conversie-events per week per ad set nodig.
   Voorbeeld: bij €35/dag en een fashion-CAC rond €28 (benchmark) haal je er
   7-10. Structureel in learning is dus NORMAAL bij deze omvang. Stuur op
@@ -139,7 +141,14 @@ de meta-ads-review skill.
 ## Verdieping
 
 - `references/campagne-kickoff.md`: de tien kickoff-vragen + budget-tier
-  playbook (tier 0 t/m 3)
+  playbook (tier 0 t/m 4, met graduatie- en kill-regels) +
+  creative-volume-formule
+- `references/bron-structuur-consensus-2026.md`: practitioner-consensus
+  2025-2026 over campagnestructuur per budgetniveau, met bronnenlijst en
+  bewijs-weging
+- `references/bron-levi-steede-2026.md`: bron-analyse Steede-serie
+  (winnende-ad-traits, persona-structuur, volume-formule, declining-boom),
+  inclusief credibility-weging
 - `references/bron-shackelford-2025.md`: volledige analyse Shackelford-video
 - `references/bron-taylor-holiday-2026.md`: volledige analyse CTC-masterclass
 - `references/bron-meta-landschap-juli-2026.md`: actuele platform-stand + bronnen

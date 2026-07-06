@@ -1,8 +1,9 @@
 # Diagnose-beslisboom en weekly review protocol
 
 Bron: Taylor Holiday/CTC metrics-hiërarchie (2026), Shackelford
-KPI-hiërarchie voor starters (2025), Meta-landschap juli 2026
-(zie bron-meta-landschap-juli-2026.md).
+KPI-hiërarchie voor starters (2025), Steede/Adflue declining-boom en
+review-lat (2026, zie meta-media-buyer/references/bron-levi-steede-2026.md),
+Meta-landschap juli 2026 (zie bron-meta-landschap-juli-2026.md).
 
 ## Metrics-hiërarchie (in deze volgorde kijken, nooit andersom)
 
@@ -58,6 +59,33 @@ Loop in deze volgorde, stop bij de eerste tak die raak is:
 - Platform zegt winst, je boekhouding zegt verlies: attributie-inflatie.
   Blended CAC en contribution margin zijn de waarheid. Spend terug naar
   het niveau waar de marge klopt.
+
+## Aanvullende boom: performance zakt langzaam weg (Steede/Adflue)
+
+Voor sluipende daling (niet acuut) deze vier vragen op volgorde:
+
+1. Draait de top-creative al 4+ weken zonder dat er een nieuwe winner
+   is opgestaan? → **Audience exhaustion**: zelfde mensen, zelfde verhaal.
+   Fix: nieuwe persona of nieuw verhaal (niet een kleurvariant).
+2. Komen er structureel te weinig nieuwe concepten bij? → **Production
+   cadence probleem**. Grote-account-norm is 5 concepten/week; vertaal
+   naar je tier (tier 1: is de maandelijkse leervraag überhaupt gedraaid?).
+3. Is de offer al maanden identiek, los van seizoen of aanleiding? →
+   **Offer staleness**: naar offer-architect ("why today?" is verlopen).
+4. Anders → **hard metrics over-obsessie**: te veel op CPA staren, te
+   weinig naar de zachte signalen (thumbstop, hold, comments, kwalitatief).
+   Terug naar het knoppen-model met verse ogen.
+
+## De lat voor elke review (gemiddeld vs excellent, Steede)
+
+- Rapporteer new-customer CAC en acquisitie-MER (totale omzet nieuwe
+  klanten / totale spend), nooit één platform-ROAS-getal
+- Performance zakt? Eerst een meetbare oorzaak zoeken (tak 0-5), nooit
+  "het algoritme" als verklaring accepteren
+- Schalen zit niet alleen in meer creative: de vijf ontgrendelaars zijn
+  offer, landing page, launches/drops, positionering én creative. Benoem
+  in elk advies welke van de vijf je aanspreekt
+- Optimaliseer de business achter Meta, niet Meta alleen
 
 ## Kill / keep / scale-regels (uit meta-media-buyer, hier operationeel)
 

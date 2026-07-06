@@ -113,9 +113,9 @@ geen offer-paniek als het probleem gewoon te weinig verkeer is.
   de EU, niet alleen een stijlfout.
 - **Claim-check:** toets elke bewering aan de verboden-claims-lijst in
   BRAND-CONFIG. (VOORBEELD van hoe streng die lijst moet zijn: een merk
-  met 92% organic cotton en 8% spandex mag "polyester-free" zeggen, maar
-  nooit "plastic-free", "100% natural" of "no synthetics", want spandex
-  is synthetisch.)
+  met 95% ingrediënten van natuurlijke oorsprong mag "synthetic
+  fragrance free" claimen, maar nooit "100% natural", "chemical-free"
+  of "non-toxic", want de overige 5% is synthetisch.)
 - Klantgerichte copy: volg de taal- en schrijfregels uit BRAND-CONFIG.
 - Nooit naar je kennisbank of vault schrijven zonder expliciete vraag.
 

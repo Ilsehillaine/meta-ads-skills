@@ -52,9 +52,9 @@ jou.
       frames/slides bekeken: benoem het in het rapport)
 - [ ] Brand-truth: elke claim in de creative getoetst aan de
       verboden-claims-lijst uit BRAND-CONFIG. Voorbeeld ter illustratie:
-      een merk met 92% organic cotton + 8% spandex mag "polyester-free"
-      zeggen, maar "plastic-free", "100% natural", "no synthetics" en
-      "no microplastics" zijn blockers
+      een merk met 95% ingrediënten van natuurlijke oorsprong mag
+      "synthetic fragrance free" claimen, maar "100% natural",
+      "chemical-free" en "non-toxic" zijn blockers
 - [ ] Copy in de taal en volgens de schrijfregels uit BRAND-CONFIG;
       spelling gecheckt
 - [ ] Hook-payload vóór seconde 4-5 (video) of leesbaar in 1,5 sec (static)
@@ -81,7 +81,7 @@ jou.
 Loop de VOLLEDIGE catalogus af: `references/instellingen-catalogus.md`.
 Die dekt account (verificatie, spending limits, DSA beneficiary/payer,
 EMQ >= 6, existing-customers-definitie), campagne (objective, budget,
-existing customer budget cap 0-5% voor cold), ad set (Purchase-event,
+existing customer budget cap bewust ingesteld), ad set (Purchase-event,
 juiste dataset, 7-day click, geo, placements met passende assets) en ad
 (alle Advantage+ creative enhancements stuk voor stuk UIT als default,
 inclusief music, image expansion en text improvements; dynamische

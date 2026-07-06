@@ -13,10 +13,10 @@ weigeren schaal- en kill-adviezen zonder marge-cijfers. Dat is een feature.
 1. Merknaam, product(categorie), prijssegment (budget/mid/premium)?
 2. Wat is je product feitelijk (materiaal, samenstelling, werking)?
 3. **Verboden claims**: welke beweringen mag je juridisch of feitelijk
-   NIET maken, ook al klinken ze lekker? (Voorbeeld uit de praktijk: een
-   merk met 92% organic cotton en 8% elastaan mag "polyester-free" zeggen,
-   maar nooit "plastic-free" of "100% natural".) Wees hier streng: dit is
-   je belangrijkste guardrail.
+   NIET maken, ook al klinken ze lekker? (Voorbeeld: een merk met 95%
+   ingrediënten van natuurlijke oorsprong mag "synthetic fragrance free"
+   claimen, maar nooit "100% natural" of "chemical-free".) Wees hier
+   streng: dit is je belangrijkste guardrail.
 4. Welke claims mag je wél maken, met welke onderbouwing?
 5. Tone of voice in drie woorden; welke taal is je klantgerichte copy?
 6. Schrijfregels/stijlregels (bijv. geen em-dashes, geen uitroeptekens)?
@@ -56,6 +56,12 @@ weigeren schaal- en kill-adviezen zonder marge-cijfers. Dat is een feature.
 20. Wat is de "invisible villain" in jouw categorie: de verborgen oorzaak
     van het probleem die de industrie niet benoemt?
 21. Welke bezwaren hoor je nu al (prijs, pasvorm, vertrouwen, levertijd)?
+
+Valideer de antwoorden uit dit blok met echte klant-taal via de
+4-bronnen-scan (`skills/ad-creative/references/angle-research.md`) en
+giet ze in persona-briefs volgens het vaste format
+(`skills/ad-creative/references/persona-playbook.md`). Voor agencies is
+deze research-stap een verplicht onderdeel van elke klant-onboarding.
 
 ## Blok 5: Assets & productie (voedt ad-creative pipeline)
 
